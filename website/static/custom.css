@@ -1,0 +1,24 @@
+
+.submission{
+    color: pink;
+    text-align: center;
+    margin-top: 200px;
+    font-size:larger;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*.submission,input{}*/
+.rect{
+    background-color:rgb(36, 36, 85);
+    width : 400px;
+    border-radius: 25px;
+    margin:auto;
+}
+body{
+    background-color:pink
+}
+h1{
+    color: black;
+    font-family: verdana, sans-serif;
+    margin-top: 50px;
+}

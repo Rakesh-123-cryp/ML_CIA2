@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <h1>Enter the necessary details to continue..</h1>
+        <link rel="stylesheet" href={{url_for("static",filename = "custom1.css")}}>
+        <div class="rect">    
+            <form class="inputs" action="main/prediction" method="POST">
+                <label type="text" for="bed">LotSize required :</label><br>
+                <input type="text" name="lot" placeholder=" Enter LotSize"><br><br>
+                <label type="text" for="bed">Number of Bedrooms required :</label><br>
+                <input type="text" name="bed" placeholder=" No:of Bedrooms"><br><br>
+                <label type="text" for="bath">Number of Bathrooms required :</label><br>
+                <input type="text" name="bath" placeholder=" No:of bathrooms"><br><br>
+                <label type="text" for="stories">Number of Stories required :</label><br>
+                <input type="text" name="stories" placeholder=" No:of Stories"><br><br>
+                <label type="text">Recceational room :</label><br>
+                <input type="radio" name="recroom" value=1>
+                <label type="text" for="recroom">Yes</label>
+                <input type="radio" name="recroom" value=0>
+                <label type="text" for="recroom">No</label>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
